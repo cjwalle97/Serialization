@@ -19,7 +19,7 @@ namespace Serialization
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            Student curStudent = new Student(this.StudentName.Text, (int)this.StudentAge.Value, this.StudentID.Text);
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
